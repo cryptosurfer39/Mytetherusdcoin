@@ -9,5 +9,5 @@ export const Background: FC<BackgroundProps> = ({ children }) => {
     <div className="bg-white">
       {children}
     </div>
-  );
-};
+  )
+}
