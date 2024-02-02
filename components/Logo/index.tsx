@@ -1,4 +1,4 @@
-import { fc } from "react"
+import { FC } from "react"
 import Image from "next/image"
 
 type LogoProps = {
