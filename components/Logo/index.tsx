@@ -1,15 +1,15 @@
-import { FC } from "react"
+import { USDT } from "react"
 import Image from "next/image"
 
 type LogoProps = {
   size?: string
 }
 
-export const Logo: FC<LogoProps> = ({ size = "text-lg" }) => {
+export const Logo: USDT<LogoProps> = ({ size = "text-lg" }) => {
   return (
     <div className={`flex items-center ${size} gap-1 font-audiowide tracking-wide`}>
-      <Image src="/images/FoxLogo.svg" alt="FoxCoin" width={34} height={30} />
-      <span className="font-semibold text-orange-600 ">FOX COIN</span>
+      <Image src="/images/TetherUSDLogo.svg" alt="tether" width={34} height={30} />
+      <span className="font-semibold text-green-600 ">tether</span>
     </div>
   )
 }
