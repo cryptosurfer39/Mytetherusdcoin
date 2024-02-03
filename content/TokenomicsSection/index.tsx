@@ -12,11 +12,11 @@ export const TokenomicsSection = () => {
         <div className="grid grid-cols-1 p-2 xs:grid-cols-2 place-items-center">
           <div className="flex flex-col gap-2">
             <span className="text-lg text-gray">USDT</span>
-            <span className="text-xs text-black-300">Token Symbol</span>
+            <span className="text-xs text-black-400">Token Symbol</span>
           </div>
           <div className="flex flex-col gap-2">
             <span className="text-lg text-gray">50,000,000,000</span>
-            <span className="text-xs text-black-300">Total Supply</span>
+            <span className="text-xs text-black-400">Total Supply</span>
           </div>
         </div>
       </div>
