@@ -16,7 +16,7 @@ export default function Document () {
 
         <meta property="twitter:card" content="summary_large_image"/>
         <meta property="twitter:url" content="https://foxcoin.vercel.app/"/>
-        <meta property="twitter:title" content="FoxCoin"/>
+        <meta property="twitter:title" content="Tether"/>
         <meta property="twitter:description" content="Tether USD Coin is a Community created for Stablecoin to be pegged"/>
         <meta property="twitter:image" content="https://foxcoin.vercel.app/assets/LandingPage.png"/>
       </Head>
