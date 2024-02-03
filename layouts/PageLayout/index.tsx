@@ -35,7 +35,7 @@ export const PageLayout: FC<PageLayoutProps> = ({ children }) => {
             onClose={closeModal}
             trigger={
               <button className="hidden xs:flex">
-                <HiMenu color="gray" size={24} />
+                <HiMenu color="black" size={24} />
               </button>
             }
             modal
