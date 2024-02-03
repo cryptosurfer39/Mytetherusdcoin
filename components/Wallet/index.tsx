@@ -56,7 +56,7 @@ export const Wallet = () => {
             </div>
             <span>Network: {getNetworkMetadata(CHAIN_ID)?.chainName}</span>
           </div>
-          <span className="text-gray-600">Please ensure your wallet is connected to the following network and try again.</span>
+          <span className="text-black-600">Please ensure your wallet is connected to the following network and try again.</span>
           <span>For more information:</span>
           <CustomLink href={HOW_ADD_CUSTOM_RPC_LINK} className="text-blue-600 underline outline-none">
             <span>How to add a custom network to MetaMask</span>
@@ -80,7 +80,7 @@ export const Wallet = () => {
 
   if (!address) {
     return (
-      <button className='p-2 bg-orange-500 rounded-md' onClick={() => connectWallet("injected")}>
+      <button className='p-2 bg-green-500 rounded-md' onClick={() => connectWallet("injected")}>
         <div className='flex justify-center gap-2'>
           <span className='font-semibold text-black'>Connect Wallet</span>
           <div className='flex items-center'>
@@ -95,7 +95,7 @@ export const Wallet = () => {
     <CopyToClipboard
       text={address}
       onCopy={() => toast.success("wallet copied")}>
-      <button className="p-2 border-2 border-orange-500 border-solid bg-gradient-to-t from-orange-900 via-orange-800 to-orange-900">
+      <button className="p-2 border-2 border-green-500 border-solid bg-gradient-to-t from-green-900 via-green-800 to-green-900">
         <span className='font-semibold text-white'>
           {middleStringTruncate(address, 6, 6)}
         </span>
