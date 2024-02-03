@@ -47,9 +47,9 @@ const Home: NextPage = () => {
               </>
             }
             <Image className="z-10" src="/images/TetherUSDLogo.svg" width={300} height={300} />
-            <div className="absolute top-0 bottom-0 left-0 right-0 w-[50rem] h-[50rem] mx-auto my-auto rounded-full bg-gradient-radial from-orange-600/10 via-transparent" />
-            <div className="absolute top-0 bottom-0 left-0 right-0 w-[30rem] h-[30rem] mx-auto my-auto rounded-full bg-gradient-radial from-orange-600/40 via-transparent" />
-            <div className="absolute top-0 bottom-0 left-0 right-0 w-[20rem] h-[20rem] mx-auto my-auto rounded-full bg-gradient-radial from-orange-600/70 via-transparent" />
+            <div className="absolute top-0 bottom-0 left-0 right-0 w-[50rem] h-[50rem] mx-auto my-auto rounded-full bg-gradient-radial from-green-600/10 via-transparent" />
+            <div className="absolute top-0 bottom-0 left-0 right-0 w-[30rem] h-[30rem] mx-auto my-auto rounded-full bg-gradient-radial from-green-600/40 via-transparent" />
+            <div className="absolute top-0 bottom-0 left-0 right-0 w-[20rem] h-[20rem] mx-auto my-auto rounded-full bg-gradient-radial from-green-600/70 via-transparent" />
           </div>
         </div>
         <TokenomicsSection />
