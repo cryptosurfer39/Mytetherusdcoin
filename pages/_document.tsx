@@ -4,7 +4,7 @@ export default function Document () {
   return (
     <Html>
       <Head>
-        <title>FoxCoin</title>
+        <title>TetherUSD</title>
         <meta name="title" content="TetherUSD"/>
         <meta name="description" content="Tether USD Coin is a Community created for Stablecoin to be pegged"/>
 
