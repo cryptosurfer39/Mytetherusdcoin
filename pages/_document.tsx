@@ -5,8 +5,8 @@ export default function Document () {
     <Html>
       <Head>
         <title>FoxCoin</title>
-        <meta name="title" content="FoxCoin"/>
-        <meta name="description" content="Fox Coin is a dapp created for ethereum 101 course of cadena.dev"/>
+        <meta name="title" content="TetherUSD"/>
+        <meta name="description" content="Tether USD Coin is a Community created for Stablecoin to be pegged"/>
 
         <meta property="og:type" content="website"/>
         <meta property="og:url" content="https://foxcoin.vercel.app/"/>
