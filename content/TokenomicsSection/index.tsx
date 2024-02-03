@@ -2,7 +2,7 @@ import { ToolTipPieChart } from "components/TooltipPieChart"
 
 export const TokenomicsSection = () => {
   return (
-    <div className=" bg-white bg-green-900">
+    <div className="bg-color-92dbd1-900">
       <h2 className="pt-8 pb-4 text-3xl font-bold text-center text-white">Tokenomics</h2>
       <div className="flex justify-center gap-12 px-4 py-8 xs:flex-col">
         <ToolTipPieChart data={[
