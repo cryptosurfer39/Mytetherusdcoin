@@ -7,7 +7,7 @@ export const Footer = () => {
     <div className="flex flex-col gap-2 p-4">
       <div className='flex items-center justify-center gap-6'>
         <hr className='w-10 bg-white' />
-        <CustomLink href="https://twitter.com/intent/user?screen_name=albertocruzdev">
+        <CustomLink href="https://twitter.com/intent/user?screen_name=mytetherusdcoin">
           <BsTwitter color='black' />
         </CustomLink>
         <CustomLink href="https://github.com/AlbertoCruzLuis">
